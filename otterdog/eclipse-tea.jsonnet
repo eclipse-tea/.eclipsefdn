@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-tea') {
+orgs.newOrg('technology.tea', 'eclipse-tea') {
   settings+: {
     description: "",
     name: "Eclipse TEA™ (Tasking Engine Advanced)",
